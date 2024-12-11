@@ -8,8 +8,9 @@
 }
 .formulaire{
     margin-top: 200px;
-    background-color: rgb(243, 153, 18);
+    background-color: rgba(97, 43, 76, 0.219);
     border-radius: 10px;
+    border: 1px solid white;
 }
 .utilisateur{
     margin-left: 30px;
@@ -50,7 +51,7 @@ label{
     height: 35px;
     width: 100px;
     border-radius: 8px;
-    background-color: rgb(32, 65, 155);
+    background-color: rgb(151, 13, 121);
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -63,4 +64,8 @@ input.utilisateur, input.mdp {
     box-sizing: border-box; 
     outline: none; 
     font-size: 14px; 
+}
+body {
+    background-image: url(image/back4.jpg);
+    background-size: cover;
 }

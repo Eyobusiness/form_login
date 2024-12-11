@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.formulaire{
+    margin-top: 200px;
+    background-color: rgba(97, 43, 76, 0.219);
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.utilisateur{
+    margin-left: 30px;
+}
+.mdp{
+    margin-left: 10px;
+}
+.user{
+    margin-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+input{
+    height: 30px;
+    border-radius: 8px;
+}
+.profil{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom:20px ;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+label{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.btn{
+   display: flex;
+   justify-content:end;
+   margin-right: 30px;
+   margin-bottom: 30px;
+
+}
+.bouton{
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: rgb(151, 13, 121);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+input.utilisateur, input.mdp {
+    background-color: transparent; 
+    color: #000; 
+    padding: 8px; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    outline: none; 
+    font-size: 14px; 
+}
+body {
+    background-image: url(image/back5.jpg);
+    background-size: cover;
+}
