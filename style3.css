@@ -69,3 +69,19 @@ body {
     background-image: url(image/back5.jpg);
     background-size: cover;
 }
+.gauche ol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen,(max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+   .formulaire{
+    margin-top: 20px;
+    }
+
+    
+}
