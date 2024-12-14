@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.profil{
+    margin-bottom: 30px;
+    align-items: center;
+    margin-left: 80px;
+}
+.photo-profil{
+    margin-bottom: 30px;
+}
+label{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.milieu {
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: rgba(137, 43, 226, 0.13);
+}
+.row{
+    padding: 50px;
+}
+#user{
+    margin-left: 50px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-color: blueviolet;
+    border-radius: 5px;
+}
+#pass{
+    margin-left: 18px;
+    height: 30px;
+    margin-bottom: 40px;
+    border-color: blueviolet;
+    border-radius: 5px;
+}
+.bouton{
+    display: flex;
+}
+.btn{
+    margin-left: 20px;
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: rgb(151, 13, 121);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bt{
+    margin-left: 70px;
+}
