@@ -7,7 +7,7 @@
     justify-content: space-between;
 }
 .formulaire{
-    margin-top: 200px;
+    margin-top: 150px;
     background-color: rgba(97, 43, 76, 0.219);
     border-radius: 10px;
     border: 1px solid white;
@@ -70,18 +70,26 @@ body {
     background-size: cover;
 }
 .gauche ol{
-    display: flex;
+  flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-@media screen,(max-width: 768px) {
+@media screen and (max-width: 450px) {
     .container{
         flex-direction: column;
     }
-   .formulaire{
-    margin-top: 20px;
+    .formulaire{
+        margin-top: 20px;
     }
-
-    
+}
+ @media screen and (max-width: 600px) {
+    .gauche ol{
+        flex-direction: column;
+    }
+}
+ @media screen and (min-width: 451px) {
+    .formulaire{
+        margin-left: -80px;
+    }
 }

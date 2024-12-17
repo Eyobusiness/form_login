@@ -57,3 +57,7 @@ label{
 .bt{
     margin-left: 70px;
 }
+body{
+    background-image: url(image/back5.jpg);
+    background-size: cover;
+}
